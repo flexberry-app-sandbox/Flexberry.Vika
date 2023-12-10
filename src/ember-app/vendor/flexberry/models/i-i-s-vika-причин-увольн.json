@@ -1,0 +1,97 @@
+﻿{
+  "name": "IISVikaПричинУвольн",
+  "modelName": "i-i-s-vika-причин-увольн",
+  "className": "ПричинУвольн",
+  "nameSpace": "IIS.Vika",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаЗаполн",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "причУвольн",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "специалист",
+      "relatedTo": "i-i-s-vika-специалист",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "рекомендации",
+      "relatedTo": "i-i-s-vika-рекомендац",
+      "inverse": "причинУвольн"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ПричинУвольнE",
+      "modelName": "i-i-s-vika-причин-увольн",
+      "attrs": [
+        {
+          "name": "датаЗаполн",
+          "caption": "Дата заполн",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "причУвольн",
+          "caption": "Прич увольн",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "РекомендацE",
+          "caption": "Рекомендации",
+          "name": "рекомендации",
+          "relatedTo": "i-i-s-vika-рекомендац",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ПричинУвольнL",
+      "modelName": "i-i-s-vika-причин-увольн",
+      "attrs": [
+        {
+          "name": "датаЗаполн",
+          "caption": "Дата заполн",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "причУвольн",
+          "caption": "Прич увольн",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

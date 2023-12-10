@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vika-специалист-e",
+  "editForm": "i-i-s-vika-специалист-e",
+  "external": false,
+  "caption": "Специалист",
+  "name": "IISVikaСпециалистL",
+  "className": "СпециалистL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vika-специалист",
+      "modelProjection": "СпециалистL"
+    }
+  ]
+}

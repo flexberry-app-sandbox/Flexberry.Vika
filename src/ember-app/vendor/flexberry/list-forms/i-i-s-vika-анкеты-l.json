@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vika-анкеты-e",
+  "editForm": "i-i-s-vika-анкеты-e",
+  "external": false,
+  "caption": "Анкеты",
+  "name": "IISVikaАнкетыL",
+  "className": "АнкетыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vika-анкеты",
+      "modelProjection": "АнкетыL"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Vika.model.Rekomendac</class>
+        <class>Vika.model.Specialist</class>
+        <class>Vika.model.Ankety</class>
+        <class>Vika.model.PrichinUvoln</class>
+        <class>Vika.model.FlexberryAdvLimit</class>
+        <class>Vika.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Vika.model.NewPlatformFlexberryServicesLock</class>
+        <class>Vika.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

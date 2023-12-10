@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vika-причин-увольн-e",
+  "editForm": "i-i-s-vika-причин-увольн-e",
+  "external": false,
+  "caption": "Причин увольн",
+  "name": "IISVikaПричинУвольнL",
+  "className": "ПричинУвольнL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vika-причин-увольн",
+      "modelProjection": "ПричинУвольнL"
+    }
+  ]
+}
